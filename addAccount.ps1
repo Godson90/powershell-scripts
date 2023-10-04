@@ -1,5 +1,5 @@
 ﻿
-$cloud_url = 'https://strsohio.privilegecloud.cyberark.com/PasswordVault'
+$cloud_url = ''
 
 function pvwa {
     $cloudid = 'strsohio_admin'
