@@ -1,4 +1,4 @@
-﻿$url = "https://strsohio.privilegecloud.cyberark.com/PasswordVault/api/auth/SAML/logon"
+﻿$url = "https://"
 
 $body = @{
 
