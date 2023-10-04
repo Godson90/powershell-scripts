@@ -16,7 +16,7 @@
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
     try {
-        $url = 'https://cyril-app3.strsoh.org'
+        $url = 'https://'
         $appID = 'CP-' + $token
 
         if ($address) {
@@ -42,7 +42,7 @@
     }
     catch {
         try {
-            $url_dr = 'https://cyril-dr-ccp.strsoh.org'
+            $url_dr = 'https://'
             $appID = 'CP-' + $token
 
             if ($address) {
